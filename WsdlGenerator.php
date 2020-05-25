@@ -156,6 +156,7 @@
 namespace subdee\soapserver;
 
 use yii\base\Component;
+require_once "aliases.php";
 
 class WsdlGenerator extends Component
 {
